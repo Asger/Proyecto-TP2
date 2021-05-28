@@ -1,1 +1,9 @@
-<app-navbar></app-navbar>
+<mat-toolbar color="basic">
+    <span class="mr-2">Zona admin</span>
+    <a mat-stroked-button color="accent" class="mr-1" [routerLink]="['/home']">Home</a>
+    <a mat-stroked-button color="accent" class="mr-1" routerLink="graficos">Estadísticas</a>
+    <a mat-stroked-button color="accent" class="mr-1" routerLink="listaempleados">Lista de empleados</a>
+  
+    <span class="example-spacer"></span>
+</mat-toolbar>
+<router-outlet></router-outlet>
