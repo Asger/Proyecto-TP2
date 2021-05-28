@@ -4,7 +4,6 @@ import { ContactoComponent } from './contenedor/contacto/contacto.component';
 import { ContenedorUsuariosComponent } from './contenedor/contenedor-usuarios/contenedor-usuarios.component';
 import { HomeComponent } from './contenedor/home/home.component';
 import { PreguntasFrecuentesComponent } from './contenedor/preguntas-frecuentes/preguntas-frecuentes.component';
-import { ProductosComponent } from './contenedor/productos/productos.component';
 import { ServiciosComponent } from './contenedor/servicios/servicios.component';
 import { SobreNosotrosComponent } from './contenedor/sobre-nosotros/sobre-nosotros.component';
 import { SociosComponent } from './contenedor/socios/socios.component';
@@ -15,9 +14,6 @@ const routes: Routes = [
     children:[ 
       {
         path:'home',component:HomeComponent
-      },
-      {
-        path:'productos',component:ProductosComponent
       },
       {
         path:'servicios',component:ServiciosComponent

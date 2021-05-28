@@ -9,24 +9,16 @@ export class HomeComponent implements OnInit {
   slides = [
     {
       image:
-        'https://therichpost.com/wp-content/uploads/2021/02/Vuejs-Fashion-Ecommerce-Template-Free.png',
+        'https://www.pushuno.com/images/banner.jpg',
     },
     {
       image:
-        'https://therichpost.com/wp-content/uploads/2021/02/angular-11-bootstrap-4.5-Ecommerce-Template-Free.png',
+        'https://owius.com/wp-content/uploads/2019/03/desarrolloweb.png',
     },
     {
       image:
-        'https://therichpost.com/wp-content/uploads/2020/10/Angular-10-Learning-Education-Center-Free-Template-1.png',
-    },
-    {
-      image:
-        'https://therichpost.com/wp-content/uploads/2020/11/Reactjs-Easy-Shop-Free-Template-with-Source-Code.png',
-    },
-    {
-      image:
-        'https://therichpost.com/wp-content/uploads/2021/02/angular-11-bootstrap-4.5-Ecommerce-Template-Free.png',
-    },
+        'https://f.hubspotusercontent10.net/hubfs/4418714/sb-blog-programming.jpg',
+    }
   ];
 
   constructor() {}

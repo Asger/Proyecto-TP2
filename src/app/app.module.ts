@@ -9,7 +9,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './contenedor/home/home.component';
 import { SociosComponent } from './contenedor/socios/socios.component';
 import { ContactoComponent } from './contenedor/contacto/contacto.component';
-import { ProductosComponent } from './contenedor/productos/productos.component';
 import { ServiciosComponent } from './contenedor/servicios/servicios.component';
 import { PreguntasFrecuentesComponent } from './contenedor/preguntas-frecuentes/preguntas-frecuentes.component';
 import { SobreNosotrosComponent } from './contenedor/sobre-nosotros/sobre-nosotros.component';
@@ -24,7 +23,6 @@ import { ContenedorUsuariosComponent } from './contenedor/contenedor-usuarios/co
     HomeComponent,
     SociosComponent,
     ContactoComponent,
-    ProductosComponent,
     ServiciosComponent,
     PreguntasFrecuentesComponent,
     SobreNosotrosComponent,

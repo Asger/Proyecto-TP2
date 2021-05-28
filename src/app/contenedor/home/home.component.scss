@@ -1,15 +1,19 @@
 .example-card {
   max-width: 500px;
 }
-.carrusel{
+.carrusel {
   margin: 1rem;
 }
-.container-flex{
+.img-responsive {
+  object-fit: cover;
+  height: 270px;
+}
+.container-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
-  div{
+  div {
     margin: 1rem;
   }
 }

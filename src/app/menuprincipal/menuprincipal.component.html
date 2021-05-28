@@ -2,11 +2,12 @@
   <mat-sidenav #drawer class="sidenav" fixedInViewport
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
-      [opened]="(isHandset$ | async) === false">
-    <mat-toolbar>Menú</mat-toolbar>
+      [opened]="(isHandset$ | async) === true">
+    <div class="logo mt-2">
+      <img src="../../assets/logo/logo.png" width="100%" alt="logo">
+    </div>
     <mat-nav-list>
       <a mat-list-item routerLink="home">Home</a>
-      <a mat-list-item routerLink="productos">Productos</a>
       <a mat-list-item routerLink="servicios">Servicios</a>
       <a mat-list-item routerLink="preguntas">Preguntas frecuentes</a>
       <a mat-list-item routerLink="sobrenosotros">Sobre nosotros</a>
@@ -24,7 +25,7 @@
       >
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Empresa</span>
+      <span>NeoTec</span>
       <span class="example-spacer"></span>
       <a mat-stroked-button color="accent" routerLink="admin">Admin</a>
     </mat-toolbar>
