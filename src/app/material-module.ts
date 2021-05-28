@@ -43,6 +43,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
 
+import { MatCarouselModule } from '@ngmodule/material-carousel';
 @NgModule({
   exports: [
     A11yModule,
@@ -89,6 +90,7 @@ import {OverlayModule} from '@angular/cdk/overlay';
     OverlayModule,
     PortalModule,
     ScrollingModule,
+    MatCarouselModule
   ]
 })
 export class MaterialModule {}

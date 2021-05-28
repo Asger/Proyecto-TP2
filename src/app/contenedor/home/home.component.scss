@@ -1,4 +1,15 @@
 .example-card {
-  max-width: 400px;
+  max-width: 500px;
 }
+.carrusel{
+  margin: 1rem;
+}
+.container-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+  div{
+    margin: 1rem;
+  }
+}
