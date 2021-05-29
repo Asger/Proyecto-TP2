@@ -1,5 +1,5 @@
 .example-card {
-  max-width: 500px;
+  max-width: 450px;
 }
 
 .img-responsive {
@@ -13,5 +13,14 @@
 
   div {
     margin: 1rem;
+    mat-card-title{
+      text-align: center;
+      margin-bottom: 0.8rem;
+    }
   }
+}
+.separacion{
+  border-color: #11dee6ed;
+  max-width: 375px;
+  margin-bottom: 1rem;
 }
