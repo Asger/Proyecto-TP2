@@ -16,6 +16,8 @@ import { SobreNosotrosComponent } from './contenedor/sobre-nosotros/sobre-nosotr
 import { MaterialModule } from './material-module';
 import { ContenedorUsuariosComponent } from './contenedor/contenedor-usuarios/contenedor-usuarios.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { CursosComponent } from './contenedor/cursos/cursos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,14 +28,16 @@ import { ContenedorUsuariosComponent } from './contenedor/contenedor-usuarios/co
     ServiciosComponent,
     PreguntasFrecuentesComponent,
     SobreNosotrosComponent,
-    ContenedorUsuariosComponent
+    ContenedorUsuariosComponent,
+    CursosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LayoutModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

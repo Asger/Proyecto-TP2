@@ -1,0 +1,24 @@
+form.contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  border: 10px double #11dee6ed;
+}
+input,
+button {
+  margin-bottom: 10px;
+}
+.titulo {
+  text-align: center;
+  margin: 2rem;
+}
+.color{
+  background-color: #11dee6ed;
+  color: rgb(0, 0, 0);
+  font-size:1.2em;
+}

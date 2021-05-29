@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactoComponent } from './contenedor/contacto/contacto.component';
 import { ContenedorUsuariosComponent } from './contenedor/contenedor-usuarios/contenedor-usuarios.component';
+import { CursosComponent } from './contenedor/cursos/cursos.component';
 import { HomeComponent } from './contenedor/home/home.component';
 import { PreguntasFrecuentesComponent } from './contenedor/preguntas-frecuentes/preguntas-frecuentes.component';
 import { ServiciosComponent } from './contenedor/servicios/servicios.component';
@@ -17,6 +18,9 @@ const routes: Routes = [
       },
       {
         path:'servicios',component:ServiciosComponent
+      },
+      {
+        path:'cursos',component:CursosComponent
       },
       {
         path:'preguntas',component:PreguntasFrecuentesComponent

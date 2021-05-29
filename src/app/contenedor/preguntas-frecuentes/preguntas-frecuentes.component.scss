@@ -1,0 +1,14 @@
+.container-flex{
+    margin: 3rem;
+    div{
+        margin-top: 2rem;
+    }
+}
+.example-card{
+    max-width: 900px;
+}
+.respuesta{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}

@@ -1,37 +1,33 @@
 .titulo {
   text-align: center;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 .container-flex {
   display: flex;
   flex-wrap: wrap;
   margin: 1rem;
-  justify-content: space-around;
+  justify-content: center;
   div {
-    margin-top: 1rem;
+    margin: 1rem;
     mat-card-title {
       text-align: center;
       margin-bottom: 0.8rem;
     }
-    mat-card-content{
-      text-align: center;
-    }
   }
 }
 .example-card {
-  max-width: 500px;
+  max-width: 350px;
 }
 .img-responsive {
   object-fit: cover;
   height: 270px;
 }
-.color{
-  background-color: #11dee6ed;
-  color: rgb(0, 0, 0);
-  font-size:1em;
+.texto {
+  font-size: 1em;
 }
 .separacion{
   border-color: #11dee6ed;
-  max-width: 375px;
+  max-width: 275px;
   margin-bottom: 1rem;
 }
+
