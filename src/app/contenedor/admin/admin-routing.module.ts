@@ -1,18 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminComponent } from './admin.component';
+import { CrearEmpleadoComponent } from './crear-empleado/crear-empleado.component';
 
 const routes: Routes = [
   {
     path:'', component:AdminComponent,
     children:[
-      {
-        path: 'graficos', 
-        loadChildren: () => 
-        import ('./graficos/graficos.module').then(
-          m => m.GraficosModule
-        )  
-      },
       {
         path: 'listaempleados', 
         loadChildren: () => 
@@ -21,7 +15,10 @@ const routes: Routes = [
         )  
       },
       {
-        path:'', redirectTo:'graficos', pathMatch:'full'
+        path: 'agregarempleado',component: CrearEmpleadoComponent 
+      },
+      {
+        path:'', redirectTo:'listaempleados', pathMatch:'full'
       }
     ]
   }

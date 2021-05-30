@@ -18,9 +18,23 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+mat-nav-list a mat-icon{
+  margin-right: 0.3em; 
+  margin-bottom: 0.3rem;
+  color: #11dee6ed
+}
 .logo{
   text-align: center;
 }
 .color{
   color: #11dee6ed;
+}
+
+.separacion{
+  border-color: #11dee6ed;
+  max-width: 150px;
+}
+.bg-color{
+  background-color: #11dee6ed;
+  color: black;
 }

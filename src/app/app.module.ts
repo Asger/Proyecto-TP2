@@ -18,6 +18,7 @@ import { ContenedorUsuariosComponent } from './contenedor/contenedor-usuarios/co
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { CursosComponent } from './contenedor/cursos/cursos.component';
+
 @NgModule({
   declarations: [
     AppComponent,
