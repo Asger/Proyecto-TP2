@@ -16,9 +16,13 @@ button {
 .titulo {
   text-align: center;
   margin: 2rem;
+  border-bottom: 1px solid #11dee6ed;
 }
 .color{
   background-color: #11dee6ed;
   color: rgb(0, 0, 0);
   font-size:1.2em;
+}
+mat-card-title{
+  color: #11dee6ed;
 }

@@ -22,6 +22,9 @@
 }
 .logo {
   max-width: 500px;
+  mat-card{
+    border-bottom: 1px solid #11dee6ed;
+  }
 }
 .separacion {
   border-color: #11dee6ed;

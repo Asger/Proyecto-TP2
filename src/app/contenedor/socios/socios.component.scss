@@ -1,6 +1,7 @@
 .titulo {
   text-align: center;
   margin: 2rem;
+  border-bottom: 1px solid #11dee6ed;
 }
 .container-flex {
   display: flex;
@@ -34,4 +35,7 @@
   border-color: #11dee6ed;
   max-width: 375px;
   margin-bottom: 1rem;
+}
+mat-card-title{
+  color: #11dee6ed;
 }
